@@ -1,5 +1,5 @@
 # Axon Framework - Command Authorization Extension
-![Build Status](https://github.com/kretar/axon-command-authorization/workflows/axon%20command%20authorization/badge.svg?branch=master)
+[![Axon Command Authorization](https://github.com/kretar/axon-command-authorization/actions/workflows/main.yaml/badge.svg?event=push)](https://github.com/kretar/axon-command-authorization/actions/workflows/main.yaml)
 
 Axon Framework is a framework for building evolutionary, event-driven microservice systems,
 based on the principles of Domain Driven Design, Command-Query Responsibility Segregation (CQRS) and Event Sourcing.
