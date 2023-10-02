@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - master
+      - *
 
 jobs:
   build:
@@ -14,9 +15,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - java-version: 11
-            sonar-enabled: false
-            deploy-enabled: false
           - java-version: 17
             sonar-enabled: false
             deploy-enabled: false
