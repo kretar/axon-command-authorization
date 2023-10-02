@@ -1,4 +1,4 @@
-name: Reactor Extension
+name: Axon Command Authorization
 
 on:
   push:
@@ -18,10 +18,10 @@ jobs:
             sonar-enabled: false
             deploy-enabled: false
           - java-version: 17
-            sonar-enabled: true
+            sonar-enabled: false
             deploy-enabled: false
           - java-version: 21
-            sonar-enabled: true
+            sonar-enabled: false
             deploy-enabled: false
 
     steps:
