@@ -44,6 +44,7 @@
             <groupId>org.axonframework.extensions.reactor</groupId>
             <artifactId>axon-reactor</artifactId>
             <version>${axon.version}</version>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
