@@ -15,6 +15,11 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.util.UUID;
 
+/**
+ * Command Authorization Interceptor test
+ *
+ * @author Roald Bankras
+ */
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = { ReactorAuthorizationMessageDispatchInterceptor.class, CommandAuthorizationInterceptor.class})
 class CommandAuthorizationInterceptorTest {

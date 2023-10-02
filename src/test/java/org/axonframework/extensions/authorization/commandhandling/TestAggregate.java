@@ -10,6 +10,11 @@ import java.util.UUID;
 
 import static org.axonframework.modelling.command.AggregateLifecycle.apply;
 
+/**
+ * Test Aggregate
+ *
+ * @author Roald Bankras
+ */
 @Aggregate
 public class TestAggregate {
     @AggregateIdentifier
